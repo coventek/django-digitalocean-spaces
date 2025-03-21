@@ -128,11 +128,11 @@ USE_SPACES = os.getenv('USE_SPACES') == 'TRUE'
 
 if USE_SPACES:
     # settings
-    AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
-    AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
-    AWS_STORAGE_BUCKET_NAME = os.getenv('AWS_STORAGE_BUCKET_NAME')
+    AWS_ACCESS_KEY_ID = 'DO801RFRTY8RR4K7GV8T'
+    AWS_SECRET_ACCESS_KEY = 'K5MzSByZQ/7CuQ84CZbg+kBEsu7zBSHRSDUBG7Olavc'
+    AWS_STORAGE_BUCKET_NAME = 'tripshopper-prod'
     AWS_DEFAULT_ACL = 'public-read'
-    AWS_S3_ENDPOINT_URL = 'https://sfo3.digitaloceanspaces.com'
+    AWS_S3_ENDPOINT_URL = 'https://blr1.digitaloceanspaces.com'
     AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400'}
     # static settings
     AWS_LOCATION = 'static'
